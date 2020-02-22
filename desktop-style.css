@@ -1,0 +1,64 @@
+@media (min-width: 1024px) {
+	header nav img {
+		display: none;
+	}
+	header nav ul li {
+		padding: 10px;
+		display: inline;
+	}
+	main section {
+		width: 100;
+		min-height: 100vh;
+		height: auto;
+		margin-bottom: 0;
+	}
+
+	.circlesR {
+		float: right;
+		padding-right: 10px;
+		transform: translateY(0%);
+		opacity: 0.4;
+	}
+	.circlesL {
+		display: block;
+		opacity: 0.4;
+		transform: translateY(0%);
+	}
+	.btn-seeMore {
+		top: 35%;
+		font-size: 1.4rem;
+		padding: 10px 15px 15px 15px;
+	}
+	.container {
+		width: 90%;
+	}
+	.app {
+		width: 50%;
+	}
+	.text {
+		width: 50%;
+	}
+	.landingPage .hero {
+		width: 50%;
+		top: 30%;
+	}
+	.story {
+		width: 70%;
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	.story strong {
+		font-size: 30px;
+	}
+	.story span {
+		font-size: 20px;
+	}
+	.contactMe address {
+		display: flex;
+		justify-content: center;
+		margin: 100px;
+	}
+	.contactMe .address strong {
+		font-size: 30px;
+	}
+}
