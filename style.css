@@ -288,8 +288,9 @@ p {
 	flex-wrap: wrap;
 }
 .about .Tech img {
-	max-width: 70px;
-	max-height: 70px;
+	width: 30%;
+	max-width: 60px;
+	max-height: 60px;
 }
 .contactMe {
 	color: white;
