@@ -5,25 +5,27 @@ $(window).scroll(function () {
     let scrolled = window.pageYOffset;
     let rate = scrolled * 2;
     //parallex 
-    console.log(rate);
+
     $('landingPage img').css(`transform`, `translateY(${rate}px)`);
 
 
 
     if (position >= portfolio) {
-        console.log("asdfsadf");
+
         $('.portfolio h1').fadeIn(3000, () => $('.portfolio h1').show());
     }
 
 
     //changes the nav bar css property
     if (position > 100) {
-        $('nav ul').css('background-color', "#1f1f1f");
+        $('nav ul').css('background-color', "#1f1f1f96");
         $('nav ul').css('padding', "20px");
+        $('nav img').css('margin', "40px 0px");
 
     } else {
         $('nav ul').css('background', "none");
         $('nav ul').css('padding', "50px 10px");
+        $('nav img').css('margin', "40px");
     }
     if (position > 500) {
         $('.gotoTop').show();

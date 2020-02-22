@@ -30,8 +30,11 @@ header nav img {
 	float: right;
 	outline: none;
 	border: none;
+	background-color: #141414c9;
+	padding: 8px;
+	border-radius: 10px;
 }
-header nav ul li {
+header nav ul {
 	padding: 15px;
 	display: none;
 }
