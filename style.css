@@ -208,8 +208,8 @@ p {
 	display: block;
 }
 .links {
-	display: block;
-	margin: 20px auto;
+	display: flex;
+	margin: 30px auto;
 	width: 200px;
 	padding-left: 20px;
 }
@@ -289,7 +289,7 @@ p {
 }
 .about .Tech img {
 	max-width: 70px;
-	max-width: 70px;
+	max-height: 70px;
 }
 .contactMe {
 	color: white;
