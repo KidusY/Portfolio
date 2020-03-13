@@ -39,7 +39,7 @@ header nav ul {
 	display: none;
 }
 header nav ul li a {
-	color: rgb(202, 202, 202);
+	color: rgb(177, 177, 177);
 	text-decoration: none;
 	font-weight: bold;
 	font-family: var(--font1);
@@ -172,7 +172,7 @@ main section {
 	width: 100%;
 	height: 100%;
 	margin: 20px auto;
-	color: #d1d1d1;
+	color: #b6b6b6;
 	display: block;
 }
 .project {
@@ -186,7 +186,8 @@ main section {
 	flex-wrap: wrap-reverse;
 }
 .text-muted {
-	opacity: 0.6;
+	opacity: 1;
+	color: #acacac;
 }
 hr {
 	opacity: 0.2;
