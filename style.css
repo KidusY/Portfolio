@@ -302,7 +302,7 @@ p {
 	font-size: 60px;
 	opacity: 1;
 	text-align: center;
-	color: white;
+	color: rgb(194, 194, 194);
 }
 .contactMe .address {
 	font-family: var(--font2);
