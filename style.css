@@ -39,7 +39,7 @@ header nav ul {
 	display: none;
 }
 header nav ul li a {
-	color: white;
+	color: rgb(202, 202, 202);
 	text-decoration: none;
 	font-weight: bold;
 	font-family: var(--font1);
@@ -259,13 +259,9 @@ p {
 .story {
 	width: 100%;
 	font-size: 15px;
+	color: rgb(214, 213, 213);
 }
-.story strong {
-	font-size: 25px;
-}
-.story span {
-	font-size: 18px;
-}
+
 .about p {
 	display: block;
 	margin: 15px auto;
