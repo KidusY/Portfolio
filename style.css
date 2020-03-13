@@ -259,7 +259,7 @@ p {
 .story {
 	width: 100%;
 	font-size: 15px;
-	color: rgb(214, 213, 213);
+	color: rgba(214, 213, 213);
 }
 
 .about p {
@@ -298,7 +298,7 @@ p {
 	font-size: 60px;
 	opacity: 1;
 	text-align: center;
-	color: rgb(194, 194, 194);
+	color: rgba(194, 194, 194);
 }
 .contactMe .address {
 	font-family: var(--font2);
