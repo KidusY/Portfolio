@@ -158,8 +158,8 @@ main section {
 .btn-seeMore:hover {
 	transform: scale(1.1);
 }
-.portfolio h1 {
-	color: white;
+.portfolio h2 {
+	color: white !important;
 	text-align: center;
 	padding-bottom: 10px;
 	font-size: 40px;
@@ -247,6 +247,7 @@ p {
 .about {
 	font-family: var(--font1);
 	color: white;
+	width: 100%;
 }
 .about .proPic {
 	display: block;
@@ -275,7 +276,7 @@ p {
 	color: white;
 	text-align: center;
 	width: 10%;
-	min-width: 100px;
+	min-width: 150px;
 	top: 35%;
 	display: block;
 	margin: 0 auto;

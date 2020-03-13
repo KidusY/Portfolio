@@ -1,7 +1,7 @@
 // on scroll change css properties
 $(window).scroll(function () {
     let position = $('nav').offset().top;
-    let portfolio = $('.portfolio h1').offset().top;
+    let portfolio = $('.portfolio h2').offset().top;
     let scrolled = window.pageYOffset;
     let rate = scrolled * 2;
     //parallex 
@@ -12,7 +12,7 @@ $(window).scroll(function () {
 
     if (position >= portfolio) {
 
-        $('.portfolio h1').fadeIn(3000, () => $('.portfolio h1').show());
+        $('.portfolio h2').fadeIn(3000, () => $('.portfolio h2').show());
     }
 
 
