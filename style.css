@@ -39,7 +39,7 @@ header nav ul {
 	display: none;
 }
 header nav ul li a {
-	color: rgb(177, 177, 177);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	font-weight: bold;
 	font-family: var(--font1);
@@ -172,7 +172,7 @@ main section {
 	width: 100%;
 	height: 100%;
 	margin: 20px auto;
-	color: #b6b6b6;
+	color: #ffffff;
 	display: block;
 }
 .project {
@@ -187,7 +187,7 @@ main section {
 }
 .text-muted {
 	opacity: 1;
-	color: #acacac;
+	color: #cccccc;
 }
 hr {
 	opacity: 0.2;
@@ -215,7 +215,7 @@ p {
 	padding-left: 20px;
 }
 .btn-projectLink {
-	color: #d1d1d1;
+	color: #ffffff;
 	background: #57fa7f;
 	background: -webkit-linear-gradient(top left, #57fa7f, #458aed);
 	background: -moz-linear-gradient(top left, #57fa7f, #458aed);
@@ -247,7 +247,7 @@ p {
 }
 .about {
 	font-family: var(--font1);
-	color: #d1d1d1;
+	color: #ffffff;
 	width: 100%;
 }
 .about .proPic {
@@ -260,7 +260,7 @@ p {
 .story {
 	width: 100%;
 	font-size: 15px;
-	color: #d1d1d1;
+	color: #ffffff;
 }
 
 .about p {
@@ -299,7 +299,7 @@ p {
 	font-size: 60px;
 	opacity: 1;
 	text-align: center;
-	color: #d1d1d1;
+	color: #ffffff;
 }
 .contactMe .address {
 	font-family: var(--font2);
