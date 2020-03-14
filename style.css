@@ -9,7 +9,7 @@ html {
 	box-sizing: border-box;
 }
 body {
-	background: url("assets/Group_22@2x.jpg");
+	background: black;
 	background-attachment: fixed;
 }
 header nav {
