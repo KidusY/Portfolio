@@ -6,4 +6,5 @@ This Portfolio showcases what I can do as a web developer.
 https://kidusy.github.io/Portfolio/
 
 ### Repo
+https://github.com/KidusY/Portfolio.git
 
