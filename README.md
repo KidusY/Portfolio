@@ -2,8 +2,8 @@
 
 This Portfolio showcases what I can do as a web developer.
 
-###Demo
+### Demo
 https://kidusy.github.io/Portfolio/
 
-###Repo
+### Repo
 
