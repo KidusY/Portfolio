@@ -353,7 +353,8 @@ footer img {
 
 footer {
 	background: black;
-	height: 13vh;
+	height: 10vh;
+	min-height: 100px;
 	color: white;
 	text-align: center;
 }
