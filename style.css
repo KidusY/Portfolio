@@ -201,14 +201,19 @@ p {
 	flex-wrap: wrap-reverse;
 }
 .app {
-	padding: 10px 0;
+	padding: 50px 0;
 }
 .app img {
-	width: 60%;
+	width: 50%;
 	min-width: 250px;
 	border-radius: 15px;
 	margin: 40px auto;
 	display: block;
+	transition: ease-in-out 0.25s;
+}
+.app img:hover {
+	transform: scale(1.1);
+	transition: ease-in-out 0.25s;
 }
 .links {
 	display: flex;
@@ -238,14 +243,14 @@ p {
 	border-radius: 50px;
 	background: linear-gradient(145deg, #151515, #191919);
 	box-shadow: 28px 28px 57px #111111, -28px -28px 57px #1d1d1d;
-	height: 280px;
+	height: 480px;
 	padding: 20px;
 }
 .text .img {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	padding: 30px;
+	padding: 5px;
 }
 .text img {
 	width: 20%;
@@ -259,7 +264,8 @@ p {
 	font-family: var(--font1);
 	color: #ffffff;
 	width: 100%;
-	padding: 30px 0;
+	margin: 30px 0;
+	padding: 50px 0;
 }
 .aboutInfo {
 	display: flex;
@@ -299,7 +305,7 @@ p {
 	min-width: 150px;
 	top: 35%;
 	display: block;
-	margin: 10px auto;
+	margin: 60px auto;
 	font-size: 40px;
 }
 

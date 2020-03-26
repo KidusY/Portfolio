@@ -2,9 +2,9 @@
 	header nav img {
 		display: none;
 	}
-		header nav ul {
-			display: block;
-		}
+	header nav ul {
+		display: block;
+	}
 	header nav ul li {
 		padding: 10px;
 		display: inline;
@@ -63,5 +63,8 @@
 	}
 	.contactMe .address strong {
 		font-size: 30px;
+	}
+	.text {
+		padding: 50px;
 	}
 }
